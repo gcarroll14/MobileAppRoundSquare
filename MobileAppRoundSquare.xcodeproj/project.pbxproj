@@ -11,9 +11,9 @@
 		59C289B61C03A27900BD31AC /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C289B51C03A27900BD31AC /* RootViewController.swift */; };
 		59C289B81C03A27900BD31AC /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C289B71C03A27900BD31AC /* DataViewController.swift */; };
 		59C289BA1C03A27900BD31AC /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C289B91C03A27900BD31AC /* ModelController.swift */; };
-		59C289BD1C03A27900BD31AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C289BB1C03A27900BD31AC /* Main.storyboard */; };
+		59C289BD1C03A27900BD31AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C289BB1C03A27900BD31AC /* LaunchScreen.storyboard */; };
 		59C289BF1C03A27900BD31AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59C289BE1C03A27900BD31AC /* Assets.xcassets */; };
-		59C289C21C03A27900BD31AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C289C01C03A27900BD31AC /* LaunchScreen.storyboard */; };
+		59C289C21C03A27900BD31AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59C289C01C03A27900BD31AC /* Main.storyboard */; };
 		59C289CD1C03A27900BD31AC /* MobileAppRoundSquareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C289CC1C03A27900BD31AC /* MobileAppRoundSquareTests.swift */; };
 		59C289D81C03A27900BD31AC /* MobileAppRoundSquareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59C289D71C03A27900BD31AC /* MobileAppRoundSquareUITests.swift */; };
 /* End PBXBuildFile section */
@@ -41,9 +41,9 @@
 		59C289B51C03A27900BD31AC /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		59C289B71C03A27900BD31AC /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
 		59C289B91C03A27900BD31AC /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		59C289BC1C03A27900BD31AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		59C289BC1C03A27900BD31AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		59C289BE1C03A27900BD31AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		59C289C11C03A27900BD31AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		59C289C11C03A27900BD31AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59C289C31C03A27900BD31AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		59C289C81C03A27900BD31AC /* MobileAppRoundSquareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobileAppRoundSquareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59C289CC1C03A27900BD31AC /* MobileAppRoundSquareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileAppRoundSquareTests.swift; sourceTree = "<group>"; };
@@ -105,9 +105,9 @@
 				59C289B51C03A27900BD31AC /* RootViewController.swift */,
 				59C289B71C03A27900BD31AC /* DataViewController.swift */,
 				59C289B91C03A27900BD31AC /* ModelController.swift */,
-				59C289BB1C03A27900BD31AC /* Main.storyboard */,
+				59C289BB1C03A27900BD31AC /* LaunchScreen.storyboard */,
 				59C289BE1C03A27900BD31AC /* Assets.xcassets */,
-				59C289C01C03A27900BD31AC /* LaunchScreen.storyboard */,
+				59C289C01C03A27900BD31AC /* Main.storyboard */,
 				59C289C31C03A27900BD31AC /* Info.plist */,
 			);
 			path = MobileAppRoundSquare;
@@ -235,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59C289C21C03A27900BD31AC /* LaunchScreen.storyboard in Resources */,
+				59C289C21C03A27900BD31AC /* Main.storyboard in Resources */,
 				59C289BF1C03A27900BD31AC /* Assets.xcassets in Resources */,
-				59C289BD1C03A27900BD31AC /* Main.storyboard in Resources */,
+				59C289BD1C03A27900BD31AC /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,20 +301,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		59C289BB1C03A27900BD31AC /* Main.storyboard */ = {
+		59C289BB1C03A27900BD31AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				59C289BC1C03A27900BD31AC /* Base */,
 			);
-			name = Main.storyboard;
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
-		59C289C01C03A27900BD31AC /* LaunchScreen.storyboard */ = {
+		59C289C01C03A27900BD31AC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				59C289C11C03A27900BD31AC /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -492,6 +492,7 @@
 				59C289DE1C03A27900BD31AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59C289DF1C03A27900BD31AC /* Build configuration list for PBXNativeTarget "MobileAppRoundSquareTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +501,7 @@
 				59C289E11C03A27900BD31AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		59C289E21C03A27900BD31AC /* Build configuration list for PBXNativeTarget "MobileAppRoundSquareUITests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +510,7 @@
 				59C289E41C03A27900BD31AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
