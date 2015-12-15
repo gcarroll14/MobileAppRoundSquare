@@ -105,14 +105,6 @@
                                     <rect key="frame" x="118" y="216" width="162" height="30"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aa2-uX-qhV">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <animations/>
-                                <state key="normal" title="Button"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="158" y="154" width="46" height="30"/>
-                                </variation>
-                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.87807103416559973" green="0.92426410222842381" blue="0.96650094696969702" alpha="1" colorSpace="calibratedRGB"/>
@@ -126,7 +118,6 @@
                                 <exclude reference="nFq-dR-Xae"/>
                                 <exclude reference="AXK-rx-0CW"/>
                                 <exclude reference="LUk-Pl-B8I"/>
-                                <exclude reference="aa2-uX-qhV"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -139,7 +130,6 @@
                                 <include reference="nFq-dR-Xae"/>
                                 <include reference="AXK-rx-0CW"/>
                                 <include reference="LUk-Pl-B8I"/>
-                                <include reference="aa2-uX-qhV"/>
                             </mask>
                         </variation>
                     </view>
